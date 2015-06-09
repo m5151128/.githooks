@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 守りたいbranch名を定義
-PROTECTED_BRANCHES=( trunk master )
+PROTECTED_BRANCHES=( utf8 master )
 
 CURRENT_BRANCH=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 
